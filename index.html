@@ -1,332 +1,436 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <title>SMKN21-Cinemas</title>
-</head>
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>Streamify</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-
+  <body>
     <div class="navbar">
-        <div class="navbar-container">
-            <div class="logo-container">
-                <h1 class="logo">TwentyOne</h1>
-            </div>
-            <div class="menu-container">
-                <ul class="menu-list">
-                    <li class="menu-list-item active">Home</li>
-                    <li class="menu-list-item">Movies</li>
-                    <li class="menu-list-item">Series</li>
-                    <li class="menu-list-item">Popular</li>
-                    <li class="menu-list-item">Trends</li>
-
-                </ul>
-            </div>
-            <div class="profile-container">
-                <img class="profile-picture"
-                    src="https://images.pexels.com/photos/2770600/pexels-photo-2770600.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="">
-                <div class="profile-text-container">
-                    <span class="profile-text">Profile</span>
-                    <i class="fas fa-caret-down"></i>
-                </div>
-                <div class="toggle">
-                    <i class="fas fa-moon toggle-icon"></i>
-                    <i class="fas fa-sun toggle-icon"></i>
-                    <div class="toggle-ball"></div>
-                </div>
-            </div>
+      <div class="navbar-container">
+        <div class="logo-container">
+          <h1 class="logo">Cinemas21</h1>
         </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Home</li>
+            <li class="menu-list-item">Movies</li>
+            <li class="menu-list-item">Series</li>
+            <li class="menu-list-item">Popular</li>
+            <li class="menu-list-item">Trends</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img
+            class="profile-picture"
+            src="https://images.pexels.com/photos/2770600/pexels-photo-2770600.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt=""
+          />
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fas fa-moon toggle-icon"></i>
+            <i class="fas fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="sidebar">
-        <i class="left-menu-icon fas fa-search"></i>
-        <i class="left-menu-icon fas fa-home"></i>
-        <i class="left-menu-icon fas fa-users"></i>
-        <i class="left-menu-icon fas fa-bookmark"></i>
-        <i class="left-menu-icon fas fa-tv"></i>
-        <i class="left-menu-icon fas fa-hourglass-start"></i>
-        <i class="left-menu-icon fas fa-shopping-cart"></i>
+      <i class="left-menu-icon fas fa-search"></i>
+      <i class="left-menu-icon fas fa-home"></i>
+      <i class="left-menu-icon fas fa-users"></i>
+      <i class="left-menu-icon fas fa-bookmark"></i>
+      <i class="left-menu-icon fas fa-tv"></i>
+      <i class="left-menu-icon fas fa-hourglass-start"></i>
+      <i class="left-menu-icon fas fa-shopping-cart"></i>
     </div>
 
     <div class="container">
-        <div class="content-container">
-            <div class="featured-content"
-                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
-                <img class="featured-title"
-                    src="https://dx35vtwkllhj9.cloudfront.net/united-artists-releasing/the-covenant/images/regions/us/tt.png "
-                    alt="">
-                <p class="featured-desc">Welcome to Streamify, your ultimate cinematic destination! Immerse in our
-                    diverse film library, spanning genres and eras, all from your screens, and embark on a cinematic
-                    journey like never before.</p>
-                <button class="featured-button">WATCH</button>
-            </div>
-            <div class="movie-list-container">
-                <h1 class="movie-list-title">NEW RELEASES</h1>
-                <div class="movie-list-wrapper">
-                    <div class="movie-list">
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtHhUAK1cEdS32F7ZGk5st8LFV08LKSv8qsw&usqp=CAU"
-                                alt="">
-                            <span class="movie-list-item-title">Frankenstein</span>
-                            <p class="movie-list-item-desc">A timeless classic that explores the
-                                consequences of scientific ambition of Dr. Frankenstein.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf2FRV86pS_49Q12_xMNp8IOS-zV3gJablGecqr5t0W35_7PF1pOKG03Lz9hjwclimrZI&usqp=CAU"
-                                alt="">
-                            <span class="movie-list-item-title">E-Team</span>
-                            <p class="movie-list-item-desc">A documentary following a group of courageous
-                                investigators venturing into the dangerous
-                                conflict zones</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTEPEkmjyiMK2njmgEZEYgT2HtnCDN85S3jQ&usqp=CAU"
-                                alt="">
-                            <span class="movie-list-item-title">BrOTHERHOOD</span>
-                            <p class="movie-list-item-desc">A gripping drama that explores the bonds of
-                                loyalty amidst the complexities of life in a community.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1CgVPuL8Cvph6bN2cotrLVKD5Q5o4SME1aA&usqp=CAU"
-                                alt="">
-                            <span class="movie-list-item-title">SCREAMLAND</span>
-                            <p class="movie-list-item-desc">A heart-pounding horror thriller that will keep you on the
-                                edge of your seat.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
-                            <span class="movie-list-item-title">Avengers</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                    </div>
-                    <i class="fas fa-chevron-right arrow"></i>
-                </div>
-            </div>
-            <div class="movie-list-container">
-                <h1 class="movie-list-title">NEW RELEASES</h1>
-                <div class="movie-list-wrapper">
-                    <div class="movie-list">
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/10.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/11.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img"
-                                src="https://images.unsplash.com/photo-1572188863110-46d457c9234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdmllJTIwcG9zdGVyfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                                alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img"
-                                src="https://images.unsplash.com/photo-1559613671-dfe2fb6a7680?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdmllJTIwcG9zdGVyfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                                alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                    </div>
-                    <i class="fas fa-chevron-right arrow"></i>
-                </div>
-            </div>
-            <div class="featured-content"
-                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
-                <img class="featured-title" src="img/f-t-2.png" alt="">
-                <p class="featured-desc">Experience the gripping world of shadows and secrets in this intense dark
-                    movie. With a brooding atmosphere, complex characters, and a suspenseful plot, it delves deep into
-                    the human psyche, exploring the darker facets of the human soul. Brace yourself for a thrilling
-                    journey into the abyss.</p>
-                <button class="featured-button">WATCH</button>
-            </div>
-            <div class="movie-list-container">
-                <h1 class="movie-list-title">NEW RELEASES</h1>
-                <div class="movie-list-wrapper">
-                    <div class="movie-list">
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img"
-                                src="https://parade.com/.image/t_share/MTkwNTgxMjk2NzkzNTkyOTU3/the-exorcist.jpg"
-                                alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                    </div>
-                    <i class="fas fa-chevron-right arrow"></i>
-                </div>
-            </div>
-            <div class="movie-list-container">
-                <h1 class="movie-list-title">NEW RELEASES</h1>
-                <div class="movie-list-wrapper">
-                    <div class="movie-list">
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/18.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/19.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfpUICmE6q0sIIta9uadl-eIQJDT3Xf5kXjg&usqp=CAU"
-                                alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
-                        </div>
-                    </div>
-                    <i class="fas fa-chevron-right arrow"></i>
-                </div>
-            </div>
+      <div class="content-container">
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url('img/f-1.jpg');
+          "
+        >
+          <img
+            class="featured-title"
+            src="https://dx35vtwkllhj9.cloudfront.net/united-artists-releasing/the-covenant/images/regions/us/tt.png "
+          />
+          <p class="featured-desc">
+            Welcome to Cinemas21, your ultimate cinematic destination! Immerse
+            yourself in our diverse movie library, spanning genres and eras, all
+            yours, and embark on a cinematic journey like never before.
+          </p>
+          <button class="featured-button d-block">WATCH</button>
         </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtHhUAK1cEdS32F7ZGk5st8LFV08LKSv8qsw&usqp=CAU"
+                  alt=""
+                />
+                <span class="movie-list-item-title">Frankenstein</span>
+                <p class="movie-list-item-desc">
+                  A timeless classic that explores the consequences of
+                  scientific ambition of Dr. Frankenstein.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf2FRV86pS_49Q12_xMNp8IOS-zV3gJablGecqr5t0W35_7PF1pOKG03Lz9hjwclimrZI&usqp=CAU"
+                  alt=""
+                />
+                <span class="movie-list-item-title">E-Team</span>
+                <p class="movie-list-item-desc">
+                  A documentary following a group of courageous investigators
+                  venturing into the dangerous conflict zones
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTEPEkmjyiMK2njmgEZEYgT2HtnCDN85S3jQ&usqp=CAU"
+                  alt=""
+                />
+                <span class="movie-list-item-title">BrOTHERHOOD</span>
+                <p class="movie-list-item-desc">
+                  A gripping drama that explores the bonds of loyalty amidst the
+                  complexities of life in a community.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1CgVPuL8Cvph6bN2cotrLVKD5Q5o4SME1aA&usqp=CAU"
+                  alt=""
+                />
+                <span class="movie-list-item-title">SCREAMLAND</span>
+                <p class="movie-list-item-desc">
+                  A heart-pounding horror thriller that will keep you on the
+                  edge of your seat.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/5.jpg" alt="" />
+                <span class="movie-list-item-title">Avengers</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/6.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/7.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/8.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/9.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/10.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/11.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/12.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="https://images.unsplash.com/photo-1572188863110-46d457c9234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdmllJTIwcG9zdGVyfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="https://images.unsplash.com/photo-1559613671-dfe2fb6a7680?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdmllJTIwcG9zdGVyfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url('img/f-2.jpg');
+          "
+        >
+          <img class="featured-title" src="img/f-t-2.png" alt="" />
+          <p class="featured-desc">
+            Experience the gripping world of shadows and secrets in this intense
+            dark movie. With a brooding atmosphere, complex characters, and a
+            suspenseful plot, it delves deep into the human psyche, exploring
+            the darker facets of the human soul. Brace yourself for a thrilling
+            journey into the abyss.
+          </p>
+          <button class="featured-button">WATCH</button>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/7.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/2.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/15.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/3.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/4.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/5.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="https://parade.com/.image/t_share/MTkwNTgxMjk2NzkzNTkyOTU3/the-exorcist.jpg"
+                  alt=""
+                />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/17.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/18.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/19.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/7.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfpUICmE6q0sIIta9uadl-eIQJDT3Xf5kXjg&usqp=CAU"
+                  alt=""
+                />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/1.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/1.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  hic fugit similique accusantium.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <center><h5>SMKN 21 Jakarta Bioskop</h5></center>
+        <p>Contact Person :</p>
+        <p>Email : smkn21jakarta@school.id</p>
+      </footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
-        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="index.js"></script>
-</body>
 
-</html>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+                    </html>
